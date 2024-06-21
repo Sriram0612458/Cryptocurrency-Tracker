@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.main-heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 35px;
+  }
+}
+.main-image {
+  width: 90%;
+  margin-bottom: 15px;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 20px;
+}
+.main-2 {
+  border: 3px solid #00e7ff;
+  width: 80%;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: 'Roboto';
+}
+.main-2-sub {
+  background-color: #092e33;
+  color: #ffffff;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main-2-sub-1 {
+  display: flex;
+  align-items: center;
+}
+.para {
+  margin-left: 30px;
+  font-family: 'Roboto';
+}
+.loader-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
